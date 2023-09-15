@@ -1,0 +1,72 @@
+@mixin heading1{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 68px;
+}
+@mixin heading2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #1F173A;;
+}
+@mixin heading3{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    color: #1F173A;;
+}
+@mixin heading4{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #1F173A;;
+}
+@mixin heading5{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #1F173A;;
+}
+@mixin heading6{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1F173A;;
+}
+@mixin paragraph1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+@mixin paragraph2{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+@mixin links{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+@mixin badge1{
+    height: 24px;
+    margin-top: 16px;
+    background: #E9D8FD;
+    border-radius: 100px;
+    color: #322659;
+}
+@mixin badge2{
+    height: 24px;
+    margin-top: 16px;
+    background: #FEFCBF;
+    border-radius: 100px;
+    color: #5F370E;
+}
+@mixin badge3{
+    height: 24px;
+    margin-top: 16px;
+    background: #FED7E2;
+    border-radius: 100px;
+    color: #521B41;
+}
